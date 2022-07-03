@@ -1,0 +1,83 @@
+Renamed Types:
+
+[DemoMode]System.Runtime.CompilerServices.NullableAttribute -> [DemoMode] . 
+{
+
+	[DemoMode]System.Runtime.CompilerServices.NullableAttribute::.ctor[1]( [System.Runtime]System.Byte ) skipped:  special name
+	[DemoMode]System.Runtime.CompilerServices.NullableAttribute::.ctor[1]( [System.Runtime]System.Byte[] ) skipped:  special name
+
+	System.Byte[] [DemoMode]System.Byte[] System.Runtime.CompilerServices.NullableAttribute::NullableFlags ->  
+}
+
+[DemoMode]System.Runtime.CompilerServices.NullableContextAttribute -> [DemoMode] . 
+{
+
+	[DemoMode]System.Runtime.CompilerServices.NullableContextAttribute::.ctor[1]( [System.Runtime]System.Byte ) skipped:  special name
+
+	System.Byte [DemoMode]System.Byte System.Runtime.CompilerServices.NullableContextAttribute::Flag ->  
+}
+
+[DemoMode]DemoMode.WeatherForecast -> [DemoMode] . 
+{
+	[DemoMode]DemoMode.WeatherForecast::get_Date[0]( ) ->  
+	[DemoMode]DemoMode.WeatherForecast::set_Date[1]( [System.Runtime]System.DateTime ) ->  
+	[DemoMode]DemoMode.WeatherForecast::get_TemperatureC[0]( ) ->  
+	[DemoMode]DemoMode.WeatherForecast::set_TemperatureC[1]( [System.Runtime]System.Int32 ) ->  
+	[DemoMode]DemoMode.WeatherForecast::get_TemperatureF[0]( ) ->  
+	[DemoMode]DemoMode.WeatherForecast::get_Summary[0]( ) ->  
+	[DemoMode]DemoMode.WeatherForecast::set_Summary[1]( [System.Runtime]System.String ) ->  
+
+	[DemoMode]DemoMode.WeatherForecast::.ctor[0]( ) skipped:  special name
+
+	System.DateTime [DemoMode]System.DateTime DemoMode.WeatherForecast::<Date>k__BackingField ->  
+	System.Int32 [DemoMode]System.Int32 DemoMode.WeatherForecast::<TemperatureC>k__BackingField ->  
+	System.String [DemoMode]System.String DemoMode.WeatherForecast::<Summary>k__BackingField ->  
+
+	System.DateTime [DemoMode]System.DateTime DemoMode.WeatherForecast::Date -> dropped
+	System.Int32 [DemoMode]System.Int32 DemoMode.WeatherForecast::TemperatureC -> dropped
+	System.Int32 [DemoMode]System.Int32 DemoMode.WeatherForecast::TemperatureF -> dropped
+	System.String [DemoMode]System.String DemoMode.WeatherForecast::Summary -> dropped
+}
+
+[DemoMode]DemoMode.Controllers.WeatherForecastController -> [DemoMode] . 
+{
+	[DemoMode]DemoMode.Controllers.WeatherForecastController::Get[0]( ) ->  
+
+	[DemoMode]DemoMode.Controllers.WeatherForecastController::.ctor[1]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[DemoMode]DemoMode.Controllers.WeatherForecastController> ) skipped:  special name
+	[DemoMode]DemoMode.Controllers.WeatherForecastController::.cctor[0]( ) skipped:  special name
+
+	System.String[] [DemoMode]System.String[] DemoMode.Controllers.WeatherForecastController::Summaries ->  
+	Microsoft.Extensions.Logging.ILogger`1<DemoMode.Controllers.WeatherForecastController> [DemoMode]Microsoft.Extensions.Logging.ILogger`1<DemoMode.Controllers.WeatherForecastController> DemoMode.Controllers.WeatherForecastController::_logger ->  
+}
+
+[DemoMode]DemoMode.Controllers.WeatherForecastController/<>c -> [DemoMode] . / 
+{
+	[DemoMode]DemoMode.Controllers.WeatherForecastController/<>c::<Get>b__3_0[1]( [System.Runtime]System.Int32 ) ->  
+
+	[DemoMode]DemoMode.Controllers.WeatherForecastController/<>c::.cctor[0]( ) skipped:  special name
+	[DemoMode]DemoMode.Controllers.WeatherForecastController/<>c::.ctor[0]( ) skipped:  special name
+
+	DemoMode.Controllers.WeatherForecastController/<>c [DemoMode]DemoMode.Controllers.WeatherForecastController/<>c DemoMode.Controllers.WeatherForecastController/<>c::<>9 ->  
+	System.Func`2<System.Int32,DemoMode.WeatherForecast> [DemoMode]System.Func`2<System.Int32,DemoMode.WeatherForecast> DemoMode.Controllers.WeatherForecastController/<>c::<>9__3_0 ->  
+}
+
+[DemoMode]Microsoft.CodeAnalysis.EmbeddedAttribute -> [DemoMode] . 
+{
+
+	[DemoMode]Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor[0]( ) skipped:  special name
+}
+
+[DemoMode]Program -> [DemoMode] . 
+{
+	[DemoMode]Program::<Main>$[1]( [System.Runtime]System.String[] ) ->  
+
+	[DemoMode]Program::.ctor[0]( ) skipped:  special name
+}
+
+Skipped Types:
+
+Renamed Resources:
+
+
+Skipped Resources:
+
